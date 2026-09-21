@@ -1,4 +1,4 @@
-## Manan Patel &nbsp;·&nbsp; `0xManan`
+## Manan Patel
 
 **Security researcher.** Bengaluru, India.
 
