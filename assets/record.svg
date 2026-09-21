@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="442" viewBox="0 0 1000 442" font-family='"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace'>
+<defs>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7E37F9"/><stop offset=".5" stop-color="#B48EF7"/><stop offset="1" stop-color="#E568C4"/>
+  </linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#070a11"/><stop offset="1" stop-color="#0f1524"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".42" r=".6">
+    <stop offset="0" stop-color="#7E37F9" stop-opacity=".33"/><stop offset="1" stop-color="#7E37F9" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+<rect width="1000" height="442" rx="16" fill="#0c111c" stroke="#1c2333"/>
+<rect width="1000" height="442" rx="16" fill="url(#glow)" opacity=".5"/>
+<text x="26" y="42" font-size="19" font-weight="800" fill="#e6edf3">~/ <tspan fill="url(#title)">disclosure record</tspan></text>
+<text x="26" y="64" font-size="12" fill="#8b93a7">identifiers assigned to me · 13 writeups published · every one fixed upstream</text>
+<text x="974" y="42" text-anchor="end" font-size="12" fill="#5b6784">grep -r CVE ~/record | sort -k5 -rn</text>
+<line x1="26" y1="74" x2="974" y2="74" stroke="#1c2333"/>
+<g>
+<circle cx="34" cy="115.0" r="5" fill="#ff5470"/><circle cx="34" cy="115.0" r="5" fill="none" stroke="#ff5470" stroke-opacity=".7"><animate attributeName="r" values="5;12;5" dur="3s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
+<text x="52" y="112.0" font-size="16" font-weight="700" fill="#e6edf3">CVE-2026-1462</text>
+<text x="52" y="130.0" font-size="11.5" fill="#5b6784">keras-team/keras</text>
+<text x="360" y="112.0" font-size="13" fill="#B48EF7">Deserialization</text>
+<text x="360" y="130.0" font-size="10.5" fill="#5b6784">CRITICAL</text>
+<rect x="680" y="110.0" width="230" height="8" rx="4" fill="#070a11" stroke="#1c2333"/>
+<rect x="680" y="110.0" width="0" height="8" rx="4" fill="#ff5470"><animate attributeName="width" values="0;202" dur="1.1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0 0 .2 1"/></rect>
+<text x="974" y="119.0" text-anchor="end" font-size="15" font-weight="700" fill="#ff5470">8.8</text>
+<line x1="26" y1="144" x2="974" y2="144" stroke="#1c2333" stroke-opacity=".6"/>
+</g>
+<g>
+<circle cx="34" cy="173.0" r="5" fill="#ff5470"/><circle cx="34" cy="173.0" r="5" fill="none" stroke="#ff5470" stroke-opacity=".7"><animate attributeName="r" values="5;12;5" dur="3s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle>
+<text x="52" y="170.0" font-size="16" font-weight="700" fill="#e6edf3">CVE-2026-1117</text>
+<text x="52" y="188.0" font-size="11.5" fill="#5b6784">parisneo/lollms</text>
+<text x="360" y="170.0" font-size="13" fill="#B48EF7">Broken Access Control</text>
+<text x="360" y="188.0" font-size="10.5" fill="#5b6784">CRITICAL</text>
+<rect x="680" y="168.0" width="230" height="8" rx="4" fill="#070a11" stroke="#1c2333"/>
+<rect x="680" y="168.0" width="0" height="8" rx="4" fill="#ff5470"><animate attributeName="width" values="0;189" dur="1.1s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0 0 .2 1"/></rect>
+<text x="974" y="177.0" text-anchor="end" font-size="15" font-weight="700" fill="#ff5470">8.2</text>
+<line x1="26" y1="202" x2="974" y2="202" stroke="#1c2333" stroke-opacity=".6"/>
+</g>
+<g>
+<circle cx="34" cy="231.0" r="5" fill="#f5a623"/><circle cx="34" cy="231.0" r="5" fill="none" stroke="#f5a623" stroke-opacity=".7"><animate attributeName="r" values="5;12;5" dur="3s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
+<text x="52" y="228.0" font-size="16" font-weight="700" fill="#e6edf3">CVE-2025-6209</text>
+<text x="52" y="246.0" font-size="11.5" fill="#5b6784">run-llama/llama_index</text>
+<text x="360" y="228.0" font-size="13" fill="#B48EF7">Path Traversal</text>
+<text x="360" y="246.0" font-size="10.5" fill="#5b6784">HIGH</text>
+<rect x="680" y="226.0" width="230" height="8" rx="4" fill="#070a11" stroke="#1c2333"/>
+<rect x="680" y="226.0" width="0" height="8" rx="4" fill="#f5a623"><animate attributeName="width" values="0;172" dur="1.1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0 0 .2 1"/></rect>
+<text x="974" y="235.0" text-anchor="end" font-size="15" font-weight="700" fill="#f5a623">7.5</text>
+<line x1="26" y1="260" x2="974" y2="260" stroke="#1c2333" stroke-opacity=".6"/>
+</g>
+<g>
+<circle cx="34" cy="289.0" r="5" fill="#f5a623"/><circle cx="34" cy="289.0" r="5" fill="none" stroke="#f5a623" stroke-opacity=".7"><animate attributeName="r" values="5;12;5" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/></circle>
+<text x="52" y="286.0" font-size="16" font-weight="700" fill="#e6edf3">CVE-2026-2393</text>
+<text x="52" y="304.0" font-size="11.5" fill="#5b6784">mlflow/mlflow</text>
+<text x="360" y="286.0" font-size="13" fill="#B48EF7">SSRF</text>
+<text x="360" y="304.0" font-size="10.5" fill="#5b6784">HIGH</text>
+<rect x="680" y="284.0" width="230" height="8" rx="4" fill="#070a11" stroke="#1c2333"/>
+<rect x="680" y="284.0" width="0" height="8" rx="4" fill="#f5a623"><animate attributeName="width" values="0;163" dur="1.1s" begin="0.6499999999999999s" fill="freeze" calcMode="spline" keySplines="0 0 .2 1"/></rect>
+<text x="974" y="293.0" text-anchor="end" font-size="15" font-weight="700" fill="#f5a623">7.1</text>
+<line x1="26" y1="318" x2="974" y2="318" stroke="#1c2333" stroke-opacity=".6"/>
+</g>
+<g>
+<circle cx="34" cy="347.0" r="5" fill="#ffd056"/><circle cx="34" cy="347.0" r="5" fill="none" stroke="#ffd056" stroke-opacity=".7"><animate attributeName="r" values="5;12;5" dur="3s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+<text x="52" y="344.0" font-size="16" font-weight="700" fill="#e6edf3">CVE-2025-6210</text>
+<text x="52" y="362.0" font-size="11.5" fill="#5b6784">run-llama/llama_index</text>
+<text x="360" y="344.0" font-size="13" fill="#B48EF7">Path Traversal</text>
+<text x="360" y="362.0" font-size="10.5" fill="#5b6784">MEDIUM</text>
+<rect x="680" y="342.0" width="230" height="8" rx="4" fill="#070a11" stroke="#1c2333"/>
+<rect x="680" y="342.0" width="0" height="8" rx="4" fill="#ffd056"><animate attributeName="width" values="0;143" dur="1.1s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0 0 .2 1"/></rect>
+<text x="974" y="351.0" text-anchor="end" font-size="15" font-weight="700" fill="#ffd056">6.2</text>
+</g>
+<line x1="26" y1="388" x2="974" y2="388" stroke="#1c2333"/>
+<text x="26" y="412" font-size="12" fill="#8b93a7">8 more published in full on the record, including finds tracked upstream under another reporter’s id.</text>
+<text x="974" y="412" text-anchor="end" font-size="12" font-weight="700" fill="#38f9d7">yomananchill.github.io →</text>
+</svg>

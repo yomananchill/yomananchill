@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="192" viewBox="0 0 1000 192" font-family='"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace'>
+<defs>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7E37F9"/><stop offset=".5" stop-color="#B48EF7"/><stop offset="1" stop-color="#E568C4"/>
+  </linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#070a11"/><stop offset="1" stop-color="#0f1524"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".42" r=".6">
+    <stop offset="0" stop-color="#7E37F9" stop-opacity=".33"/><stop offset="1" stop-color="#7E37F9" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+<rect width="1000" height="192" rx="16" fill="#0c111c" stroke="#1c2333"/>
+<rect width="1000" height="192" rx="16" fill="url(#glow)" opacity=".4"/>
+<line x1="500.0" y1="20" x2="500.0" y2="172" stroke="#1c2333"/>
+<text x="26" y="40" font-size="16" font-weight="800" fill="#e6edf3">~/ <tspan fill="url(#title)">arsenal</tspan></text>
+<text x="515.0" y="40" font-size="16" font-weight="800" fill="#e6edf3">~/ <tspan fill="url(#title)">clearances</tspan> <tspan font-size="11" fill="#5b6784">· 8 held</tspan></text>
+<text x="26" y="60" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#5b6784">LANGUAGES</text>
+<g><rect x="26" y="72" width="67" height="24" rx="12.0" fill="#7E37F9" fill-opacity=".12" stroke="#7E37F9" stroke-opacity=".5"/><text x="59" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#7E37F9">Python</text></g>
+<g><rect x="101.64" y="72" width="29" height="24" rx="12.0" fill="#38f9d7" fill-opacity=".12" stroke="#38f9d7" stroke-opacity=".5"/><text x="116" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38f9d7">C</text></g>
+<g><rect x="140.07999999999998" y="72" width="44" height="24" rx="12.0" fill="#E568C4" fill-opacity=".12" stroke="#E568C4" stroke-opacity=".5"/><text x="162" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#E568C4">C++</text></g>
+<g><rect x="193.39999999999998" y="72" width="37" height="24" rx="12.0" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".5"/><text x="212" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38bdf8">Go</text></g>
+<g><rect x="239.27999999999997" y="72" width="52" height="24" rx="12.0" fill="#B48EF7" fill-opacity=".12" stroke="#B48EF7" stroke-opacity=".5"/><text x="265" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#B48EF7">Rust</text></g>
+<g><rect x="300.03999999999996" y="72" width="52" height="24" rx="12.0" fill="#38f9d7" fill-opacity=".12" stroke="#38f9d7" stroke-opacity=".5"/><text x="326" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38f9d7">Bash</text></g>
+<text x="26" y="112" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#5b6784">TOOLING</text>
+<g><rect x="26" y="124" width="96" height="24" rx="12.0" fill="#ff5470" fill-opacity=".12" stroke="#ff5470" stroke-opacity=".5"/><text x="74" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#ff5470">Burp Suite</text></g>
+<g><rect x="131.4" y="124" width="67" height="24" rx="12.0" fill="#7E37F9" fill-opacity=".12" stroke="#7E37F9" stroke-opacity=".5"/><text x="165" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#7E37F9">Ghidra</text></g>
+<g><rect x="207.04000000000002" y="124" width="74" height="24" rx="12.0" fill="#38f9d7" fill-opacity=".12" stroke="#38f9d7" stroke-opacity=".5"/><text x="244" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38f9d7">Semgrep</text></g>
+<g><rect x="290.12" y="124" width="67" height="24" rx="12.0" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".5"/><text x="323" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38bdf8">CodeQL</text></g>
+<g><rect x="365.76" y="124" width="59" height="24" rx="12.0" fill="#E568C4" fill-opacity=".12" stroke="#E568C4" stroke-opacity=".5"/><text x="395" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#E568C4">Frida</text></g>
+<g><rect x="26" y="158" width="67" height="24" rx="12.0" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".5"/><text x="59" y="174.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38bdf8">Docker</text></g>
+<g><rect x="101.64" y="158" width="59" height="24" rx="12.0" fill="#B48EF7" fill-opacity=".12" stroke="#B48EF7" stroke-opacity=".5"/><text x="131" y="174.0" text-anchor="middle" font-size="12" font-weight="600" fill="#B48EF7">Linux</text></g>
+<text x="515.0" y="60" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#5b6784">OFFENSIVE</text>
+<g><rect x="515.0" y="72" width="52" height="24" rx="12.0" fill="#7E37F9" fill-opacity=".12" stroke="#7E37F9" stroke-opacity=".5"/><text x="541" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#7E37F9">CRTO</text></g>
+<g><rect x="575.76" y="72" width="44" height="24" rx="12.0" fill="#E568C4" fill-opacity=".12" stroke="#E568C4" stroke-opacity=".5"/><text x="598" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#E568C4">CRT</text></g>
+<g><rect x="629.08" y="72" width="52" height="24" rx="12.0" fill="#B48EF7" fill-opacity=".12" stroke="#B48EF7" stroke-opacity=".5"/><text x="655" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#B48EF7">CRTA</text></g>
+<g><rect x="689.84" y="72" width="44" height="24" rx="12.0" fill="#E568C4" fill-opacity=".12" stroke="#E568C4" stroke-opacity=".5"/><text x="712" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#E568C4">PT1</text></g>
+<g><rect x="743.1600000000001" y="72" width="52" height="24" rx="12.0" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".5"/><text x="769" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38bdf8">eJPT</text></g>
+<g><rect x="803.9200000000001" y="72" width="44" height="24" rx="12.0" fill="#38f9d7" fill-opacity=".12" stroke="#38f9d7" stroke-opacity=".5"/><text x="826" y="88.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38f9d7">ACP</text></g>
+<text x="515.0" y="112" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#5b6784">DEFENSIVE</text>
+<g><rect x="515.0" y="124" width="52" height="24" rx="12.0" fill="#38f9d7" fill-opacity=".12" stroke="#38f9d7" stroke-opacity=".5"/><text x="541" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#38f9d7">CNSP</text></g>
+<g><rect x="575.76" y="124" width="44" height="24" rx="12.0" fill="#7E37F9" fill-opacity=".12" stroke="#7E37F9" stroke-opacity=".5"/><text x="598" y="140.0" text-anchor="middle" font-size="12" font-weight="600" fill="#7E37F9">CAP</text></g>
+</svg>
