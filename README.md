@@ -78,5 +78,5 @@ A cryptography research project combining AES and RSA. Python. Accompanies my [p
 <img src="./assets/divider.svg" alt="" width="100%">
 <p><samp>found something interesting? let's talk.</samp></p>
 <p><a href="mailto:notmanan.ctf@gmail.com">notmanan.ctf@gmail.com</a></p>
-<p><samp>0xManan &nbsp; / &nbsp; see you in the source.</samp></p>
+<p><samp>YoMananChill &nbsp; / &nbsp; see you in the source.</samp></p>
 </div>
