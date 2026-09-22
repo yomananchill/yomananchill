@@ -1,0 +1,8 @@
+# Profile banner
+
+Generated with the built-in image generation tool on 22 September 2026.
+Asset: `assets/night-shift.png`.
+
+## Prompt
+
+Use case: stylized-concept. Asset type: wide hero banner for a personal GitHub profile. Create a spectacular cinematic 1990s hand-painted anime / lo-fi hacker bedroom illustration, landscape 3:1 composition. Late rainy night, a young adult Indian male security researcher with dark tousled hair and headphones in a black loose t-shirt, seen mostly in rear three-quarter profile at a cluttered retro computing desk, two chunky CRT monitors glowing soft mint and cyan with abstract code-shaped marks, notebooks, coffee, small cassette player. Beyond a wide rain-streaked window: moody indigo and plum city apartment lights, overhead cables, little distant neon accents. Deep midnight ink shadows, muted lilac, mint phosphor, dusty pink neon, tiny warm amber highlights. Detailed painted anime background, textured film grain, intimate calm nocturnal atmosphere, analog anime cel character, sophisticated composition and strong atmospheric perspective. The desk and person occupy the right two thirds. The left third is a naturally dark wall with huge tasteful monospaced cream lettering reading exactly '0xManan', below it smaller exactly 'SECURITY RESEARCHER', with small exactly 'yomananchill' below. Typography must be clean, legible at GitHub README width, no other legible text. The composition is a beautiful cohesive illustration with integrated title, not a UI mockup, not a logo sheet. No hooded mask, no Guy Fawkes, no skulls, no random hacking warnings, no fake company logos, no watermarks, no generic 3D rendering. Export a high-quality wide banner suitable for use at 1200px width.

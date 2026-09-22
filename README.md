@@ -1,53 +1,94 @@
 <div align="center">
-
-<a href="https://yomananchill.github.io"><img src="./assets/hero.svg" alt="yomananchill // security researcher" width="100%"></a>
-
-<a href="https://yomananchill.github.io"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=8CE39A&center=true&vCenter=true&width=820&height=38&lines=I+work+the+layer+under+the+application.;AI%2FML+infrastructure%2C+browser+engines%2C+parsers.;One+surface+at+a+time%2C+until+it+breaks.;If+it+isn't+fixed+yet%2C+it+isn't+here." alt="typing"></a>
-
+<a href="https://yomananchill.github.io"><img src="./assets/night-shift.png" alt="0xManan. A rainy night, a quiet city, and an anime workstation lit by mint-green terminals." width="100%"></a>
+<p><samp>i'm weird, i hack.</samp></p>
+<p><a href="https://yomananchill.github.io"><b>WEBSITE</b></a> &nbsp; / &nbsp; <a href="https://yomananchill.github.io/#/disclosures"><b>RESEARCH</b></a> &nbsp; / &nbsp; <a href="https://x.com/0xManan"><b>X</b></a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/manan-patel-4330101b4/"><b>LINKEDIN</b></a> &nbsp; / &nbsp; <a href="mailto:notmanan.ctf@gmail.com"><b>EMAIL</b></a></p>
+<img src="./assets/night-mode.svg" alt="Night shift. Code, curiosity, repeat. Lo-fi visuals." width="100%">
 </div>
 
-```console
-yomananchill@0xmanan:~$ whoami
-Manan Patel  //  security researcher  //  Bengaluru
+<br>
 
-I work the layer under the application: AI/ML infrastructure, browser
-engines, parsers, the plumbing everything else is built on. I take one
-surface at a time and try to break it. Findings go upstream first, and
-they only show up here once a fix has shipped.
+### `01 / whoami`
 
-Fintech security and compliance by day.
+I'm **Manan Patel**, a security researcher in **Bengaluru, India**.
+
+I work on security and compliance at **Khatabook**. Independently, I read AI frameworks and open-source infrastructure, find bugs, and work with maintainers to get them fixed.
+
+The code that interests me lives underneath the application: model loaders, browser engines, parsers, runtimes, and network stacks. My public record is on [my website](https://yomananchill.github.io).
+
+<br>
+
+<img src="./assets/divider.svg" alt="" width="100%">
+
+### `02 / field notes`
+
+**Five credited CVEs.** Here are the records, with links to the identifiers.
+
+| Project | Research area | Public record |
+| :--- | :--- | :--- |
+| **Keras** | Model-loading safeguards | [CVE-2026-1462](https://www.cve.org/CVERecord?id=CVE-2026-1462) |
+| **MLflow** | Webhook request validation | [CVE-2026-2393](https://www.cve.org/CVERecord?id=CVE-2026-2393) |
+| **LoLLMs** | Event-handler access controls | [CVE-2026-1117](https://www.cve.org/CVERecord?id=CVE-2026-1117) |
+| **LlamaIndex** | Filesystem isolation | [CVE-2025-6210](https://www.cve.org/CVERecord?id=CVE-2025-6210) |
+| **LlamaIndex** | Image-path handling | [CVE-2025-6209](https://www.cve.org/CVERecord?id=CVE-2025-6209) |
+
+My archive also includes issues I reported independently after another researcher. Those are labelled separately; the CVE credit belongs to the original reporter.
+
+**[Read the disclosure archive →](https://yomananchill.github.io/#/disclosures)**
+
+<br>
+
+### `03 / things i've built`
+
+**[Kryptonite](https://github.com/yomananchill/Kryptonite)**<br>
+Memory acquisition for incident responders on Windows and Linux. Python and PowerShell. Built during the Kavach Hackathon.
+
+**[SecureByte](https://github.com/yomananchill/SecureByte)**<br>
+A cryptography research project combining AES and RSA. Python. Accompanies my [published research](https://www.jetir.org/view?paper=JETIR2403986).
+
+<br>
+
+<img src="./assets/divider.svg" alt="" width="100%">
+
+### `04 / open tabs`
+
+```text
+research     AI/ML security · code review · vulnerability research
+at work      AWS security · incident response · compliance
+reading      browser engines · parsers · runtimes · network stacks
+building     tools that help defenders do their work
 ```
+
+[The codebase reading list →](https://yomananchill.github.io/#/audits)
+
+<details>
+<summary><b>Certifications & a few milestones</b></summary>
+<br>
+
+**Offensive security:** CRTO · CRT · CRTA · PT1 · eJPT · ACP<br>
+**Defensive security:** CNSP · CAP
+
+- **Khatabook Spark Award**, 2025 and 2026
+- **Pentathon CTF**, top 25 finalist, 2024
+- **Kavach Hackathon**, top 5 finalist, 2023
+- **Hackvengers Hackathon**, first place, 2023
+- **IWCON CTF**, runners-up, 2023
+
+</details>
+
+<br>
+
+### `05 / commit after commit`
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yomananchill/yomananchill/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/yomananchill/yomananchill/output/snake-dark.svg" alt="A snake tracing my GitHub contribution graph." width="100%">
+</picture>
 
 <br>
 
 <div align="center">
-
-<img src="./assets/record.svg" alt="disclosure record" width="100%">
-
-**[→ read the writeups](https://yomananchill.github.io/#/disclosures)**
-
-<br>
-
-<img src="./assets/scope.svg" alt="codebases under review" width="100%">
-
-<br>
-
-<img src="./assets/loadout.svg" alt="arsenal and clearances" width="100%">
-
-<br>
-
-<img src="https://raw.githubusercontent.com/yomananchill/yomananchill/output/snake-dark.svg" alt="contribution snake" width="100%">
-
-<br>
-
-### `~/contact`
-
-[![Site](https://img.shields.io/badge/yomananchill.github.io-080b08?style=flat-square&logo=githubpages&logoColor=8CE39A&labelColor=080b08)](https://yomananchill.github.io) &nbsp; [![X](https://img.shields.io/badge/X-080b08?style=flat-square&logo=x&logoColor=c8f2cf&labelColor=080b08)](https://x.com/0xManan) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-080b08?style=flat-square&logo=linkedin&logoColor=8CE39A&labelColor=080b08)](https://www.linkedin.com/in/manan-patel-4330101b4) &nbsp; [![Email](https://img.shields.io/badge/Email-080b08?style=flat-square&logo=protonmail&logoColor=8CE39A&labelColor=080b08)](mailto:notmanan.ctf@gmail.com)
-
-<br>
-
-<sub><img src="https://komarev.com/ghpvc/?username=yomananchill&color=356b43&style=flat-square&label=visitors" alt="visitors"></sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080b08,55:356b43,100:8CE39A&height=90&section=footer" width="100%">
-
+<img src="./assets/divider.svg" alt="" width="100%">
+<p><samp>found something interesting? let's talk.</samp></p>
+<p><a href="mailto:notmanan.ctf@gmail.com">notmanan.ctf@gmail.com</a></p>
+<p><samp>Bengaluru, IN &nbsp; / &nbsp; 0xManan &nbsp; / &nbsp; end of transmission</samp></p>
 </div>
