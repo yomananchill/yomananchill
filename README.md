@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://yomananchill.github.io"><img src="./assets/night-shift.png" alt="0xManan. A rainy night, a quiet city, and an anime workstation lit by mint-green terminals." width="100%"></a>
+<a href="https://yomananchill.github.io"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/night-shift.png"><img src="./assets/night-shift.gif" alt="0xManan. An anime workstation at night, with softly falling rain and a gentle CRT glow." width="100%"></picture></a>
 <p><samp>i'm weird, i hack.</samp></p>
 <p><a href="https://yomananchill.github.io"><b>WEBSITE</b></a> &nbsp; / &nbsp; <a href="https://yomananchill.github.io/#/disclosures"><b>RESEARCH</b></a> &nbsp; / &nbsp; <a href="https://x.com/0xManan"><b>X</b></a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/manan-patel-4330101b4/"><b>LINKEDIN</b></a> &nbsp; / &nbsp; <a href="mailto:notmanan.ctf@gmail.com"><b>EMAIL</b></a></p>
 <img src="./assets/night-mode.svg" alt="Night shift. Code, curiosity, repeat. Lo-fi visuals." width="100%">
@@ -7,21 +7,18 @@
 
 <br>
 
-### `01 / whoami`
+### `~/whoami`
 
-I'm **Manan Patel**, a security researcher in **Bengaluru, India**.
+I'm **Manan Patel**, a security researcher in **Bengaluru**. Security and compliance at **Khatabook** by day. Independent research into AI frameworks and open-source infrastructure outside work.
 
-I work on security and compliance at **Khatabook**. Independently, I read AI frameworks and open-source infrastructure, find bugs, and work with maintainers to get them fixed.
-
-The code that interests me lives underneath the application: model loaders, browser engines, parsers, runtimes, and network stacks. My public record is on [my website](https://yomananchill.github.io).
-
+I read the code underneath the application: model loaders, browser engines, parsers, and runtimes. When I find something, I work with the maintainers to get it fixed.
 <br>
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### `02 / field notes`
+### `~/research`
 
-**Five credited CVEs.** Here are the records, with links to the identifiers.
+**Five credited CVEs** across Keras, MLflow, LoLLMs, and LlamaIndex.
 
 | Project | Research area | Public record |
 | :--- | :--- | :--- |
@@ -31,13 +28,13 @@ The code that interests me lives underneath the application: model loaders, brow
 | **LlamaIndex** | Filesystem isolation | [CVE-2025-6210](https://www.cve.org/CVERecord?id=CVE-2025-6210) |
 | **LlamaIndex** | Image-path handling | [CVE-2025-6209](https://www.cve.org/CVERecord?id=CVE-2025-6209) |
 
-My archive also includes issues I reported independently after another researcher. Those are labelled separately; the CVE credit belongs to the original reporter.
+The full archive also includes independent reports. Those are labelled separately from my credited CVEs.
 
 **[Read the disclosure archive →](https://yomananchill.github.io/#/disclosures)**
 
 <br>
 
-### `03 / things i've built`
+### `~/projects`
 
 **[Kryptonite](https://github.com/yomananchill/Kryptonite)**<br>
 Memory acquisition for incident responders on Windows and Linux. Python and PowerShell. Built during the Kavach Hackathon.
@@ -49,16 +46,7 @@ A cryptography research project combining AES and RSA. Python. Accompanies my [p
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### `04 / open tabs`
-
-```text
-research     AI/ML security · code review · vulnerability research
-at work      AWS security · incident response · compliance
-reading      browser engines · parsers · runtimes · network stacks
-building     tools that help defenders do their work
-```
-
-[The codebase reading list →](https://yomananchill.github.io/#/audits)
+**Currently reading:** browser engines, parsers, runtimes, and network stacks. [Codebase list →](https://yomananchill.github.io/#/audits)
 
 <details>
 <summary><b>Certifications & a few milestones</b></summary>
@@ -77,7 +65,7 @@ building     tools that help defenders do their work
 
 <br>
 
-### `05 / commit after commit`
+### `~/contributions`
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yomananchill/yomananchill/output/snake-light.svg">
@@ -90,5 +78,5 @@ building     tools that help defenders do their work
 <img src="./assets/divider.svg" alt="" width="100%">
 <p><samp>found something interesting? let's talk.</samp></p>
 <p><a href="mailto:notmanan.ctf@gmail.com">notmanan.ctf@gmail.com</a></p>
-<p><samp>Bengaluru, IN &nbsp; / &nbsp; 0xManan &nbsp; / &nbsp; end of transmission</samp></p>
+<p><samp>0xManan &nbsp; / &nbsp; see you in the source.</samp></p>
 </div>
